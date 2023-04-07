@@ -14,7 +14,8 @@ const Router = () => {
             <BrowserRouter >
                 <HeaderLayout />     
                     <Routes  >
-                        <Route path='/' exact element={<LandingPage />} />
+                        {/* <Route path='/' exact element={<LandingPage />} /> */}
+                        <Route path='/' exact element={<JobeSeeker />} />
                         <Route path='/jobseeker' exact element={<JobeSeeker />} />
                     </Routes>
                 <FooterLayout />      
