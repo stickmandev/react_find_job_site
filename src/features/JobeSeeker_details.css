@@ -1,0 +1,75 @@
+#section{
+    position: fixed;
+    height: 100%;
+    width: 0vw;    
+    /* width: 65vw;     */
+    justify-content: flex-end;
+    align-items: flex-end;
+    transition: 0s;
+}
+
+#leftSlide_overlay{
+    background-color: white;
+    z-index: 11;
+    position: fixed;
+    height: 100%;
+    transition: 0.2s;
+    overflow: hidden;
+    width: 0;
+    /* width: 65vw;     */
+    display: flex;
+    flex-direction: column;
+}
+
+#leftSlide_overlay p:first-child{
+    display: flex;
+    justify-content: end;
+    margin-bottom: 0vw;
+}
+
+#leftSlide_overlay button{
+    color: white;
+    background-color: black;
+    padding: 0.4vw;
+    width: 5vw;
+    font-weight: bold;
+    border-radius: 12px;
+    margin-right: 2vw;
+}
+
+#leftSlide_overlay h1{
+    text-decoration: underline;
+    margin-right: 2vw;
+    margin-left: 2vw;
+}
+
+#card{
+    width: 95%;
+
+    box-shadow:
+        1px 1.6px 2.2px rgba(0, 0, 0, 0.02),
+        2.4px 3.8px 5.3px rgba(0, 0, 0, 0.028),
+        4.5px 7.1px 10px rgba(0, 0, 0, 0.035),
+        8px 12.7px 17.9px rgba(0, 0, 0, 0.042),
+        15px 23.8px 33.4px rgba(0, 0, 0, 0.05),
+        36px 57px 80px rgba(0, 0, 0, 0.07)
+    ;
+}
+
+#leftSlide_overlay p{
+    margin-right: 2vw;
+    margin-left: 3vw;
+    word-break: break-all;
+    
+}
+
+#leftSlide_overlay  ul{
+    margin-left: 1vw;
+}
+#leftSlide_overlay  ul li{
+    /* list-style-type: none; */
+    list-style-type: circle;
+    color: black;
+    margin-right: 2vw;
+    margin-left: 3vw;
+}

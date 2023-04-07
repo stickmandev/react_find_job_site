@@ -1,0 +1,31 @@
+footer{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--color1);
+    height: 6vw;
+    position: fixed;
+    bottom: 0;
+    width: 60vw;
+    border-top: 2px solid rgb(247, 242, 242);
+    z-index: 1;
+}
+
+footer ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+	justify-content: space-between;
+    align-items: center;
+}
+
+footer li{
+    margin-left: 2vw;
+    margin-right: 2vw;
+}
+
+footer p{
+    text-decoration: underline;
+}

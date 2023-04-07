@@ -1,13 +1,22 @@
 import React from 'react';
+import { Provider } from 'react-redux';
+import { store } from './Store_&_State/store';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import {GlobalStateProvider} from './Store_&_State/GlobalState'
+import Router from './router'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <GlobalStateProvider>
+        <Provider store={store}>
+          
+            <Router />
+          
+        </Provider>
+    </GlobalStateProvider>
   </React.StrictMode>
 );
 

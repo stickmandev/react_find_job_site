@@ -1,0 +1,86 @@
+header{
+    color: var(--color1);
+    position: sticky;
+    top: 0px;
+}
+
+#headerOverlay{
+    background-color: rgb(250, 249, 249);
+    display: flex;
+    flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+    height: 4vw;
+} 
+ 
+
+li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+#title{
+    display: flex;
+    flex-direction: row;
+	align-items: center;
+    margin-left: 2vw;
+}
+
+#title img{
+    width: 5vw;
+}
+
+#title h1{
+    margin-top: 1.4vw;
+    font-size: 1.3vw;
+}
+
+#app_nav{
+    display: flex;
+    flex-direction: row;
+	justify-content: space-between;
+}
+
+#nav_options{
+    display: flex;
+    flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+    margin-right: 2vw;
+    /* width: 40vw; */
+}
+
+#nav_options a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 8.5vw;
+    border-radius: 25px;
+    padding: 4px;
+    border: 1px solid white;
+}
+
+#nav_options a:hover{
+    border: 1px solid black;
+    
+}
+
+#app_nav a:last-child{
+    margin-right: -3vw;
+}
+
+#app_nav a{
+    border: 3px solid white;
+    border-radius: 25px;
+    padding: 0.4vw;
+    margin-left: 7vw;
+}
+
+#app_nav a:hover{
+    border: 3px solid black;
+}
