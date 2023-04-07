@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/%7Breact_find_job_site%7D/static/css/main.8eab1720.css",
-    "main.js": "/%7Breact_find_job_site%7D/static/js/main.c7faacdf.js",
-    "static/js/787.0c3f432a.chunk.js": "/%7Breact_find_job_site%7D/static/js/787.0c3f432a.chunk.js",
-    "static/media/jclogo.svg": "/%7Breact_find_job_site%7D/static/media/jclogo.45d69324a25616daca4f94c2bf7f3d58.svg",
-    "index.html": "/%7Breact_find_job_site%7D/index.html",
-    "main.8eab1720.css.map": "/%7Breact_find_job_site%7D/static/css/main.8eab1720.css.map",
-    "main.c7faacdf.js.map": "/%7Breact_find_job_site%7D/static/js/main.c7faacdf.js.map",
-    "787.0c3f432a.chunk.js.map": "/%7Breact_find_job_site%7D/static/js/787.0c3f432a.chunk.js.map"
+    "main.css": "/static/css/main.8eab1720.css",
+    "main.js": "/static/js/main.051c32d3.js",
+    "static/js/787.0c3f432a.chunk.js": "/static/js/787.0c3f432a.chunk.js",
+    "static/media/jclogo.svg": "/static/media/jclogo.45d69324a25616daca4f94c2bf7f3d58.svg",
+    "index.html": "/index.html",
+    "main.8eab1720.css.map": "/static/css/main.8eab1720.css.map",
+    "main.051c32d3.js.map": "/static/js/main.051c32d3.js.map",
+    "787.0c3f432a.chunk.js.map": "/static/js/787.0c3f432a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8eab1720.css",
-    "static/js/main.c7faacdf.js"
+    "static/js/main.051c32d3.js"
   ]
 }
