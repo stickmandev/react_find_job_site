@@ -1,5 +1,6 @@
 import React from "react";
-import {BrowserRouter, Route, Routes} from 'react-router-dom'
+import {BrowserRouter, Route, Routes, HashRouter} from 'react-router-dom'
+
 // // import Ledger from "./features/ledger/Ledger";
 import HeaderLayout from "./features/defualt_Layouts/HeaderLayout";
 import FooterLayout from "./features/defualt_Layouts/FooterLayout";
@@ -11,15 +12,14 @@ import JobeSeeker from "./features/JobeSeeker";
 const Router = () => {
     return (
         <>
-            <BrowserRouter >
+            <HashRouter >
                 <HeaderLayout />     
                     <Routes  >
-                        {/* <Route path='/' exact element={<LandingPage />} /> */}
                         <Route path='/' exact element={<JobeSeeker />} />
                         <Route path='/jobseeker' exact element={<JobeSeeker />} />
                     </Routes>
                 <FooterLayout />      
-            </BrowserRouter>
+            </HashRouter>
         </>
     )   
 
